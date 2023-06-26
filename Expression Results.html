@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid blue;
+}
+</style>
+</head>
+<body>
+
+<h2>Passed Tests</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>RESULT</th>
+    <th>MESSAGE</th>
+  </tr>
+  <tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testEmptyExpressionFromPostFix: successfully caught IllegalArgumentException</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testNumberExpressionFromPostFix: 7 returned</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testSymbolsExpressionFromPostFix: successfully caught IllegalArgumentException</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testNormalExpressionFromPostFix: correct postfix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testSumGetOperator: returns correct operator</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testDifferenceGetOperator: returns correct operator</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testProductGetOperator: returns correct operator</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testQuotientGetOperator: returns correct operator</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testIntToPrefix: returns correct prefix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testIntToPostfix: returns correct postfix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testIntToInfix: returns correct infix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testVariToPrefix: returns correct prefix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testVariToPostfix: returns correct postfix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testVariToInfix: returns correct infix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testOpToPrefix: returns correct prefix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testOpToPostfix: returns correct postfix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testOpToInfix: returns correct infix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testSumToPrefix: returns correct prefix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testSumToPostfix: returns correct postfix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testSumToInfix: returns correct infix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testDifferenceToPrefix: returns correct prefix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testDifferenceToPostfix: returns correct postfix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testDifferenceToInfix: returns correct infix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testProductToPrefix: returns correct prefix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testProductToPostfix: returns correct postfix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testProductToInfix: returns correct infix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testQuotientToPrefix: returns correct prefix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testQuotientToPostfix: returns correct postfix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testQuotientToInfix: returns correct infix notation</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testToString: correctly returns corresponding String</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testIntSimplify: returns correct object</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testVariSimplify: returns correct object</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testSumSimp0X: correctly returned simplified Expression</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testSumSimpX0: correctly returned simplified Expression</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testSumSimpNum: correctly returned simplified Expression</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testSumSimpNorm: correctly returned simplified Expression</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testDifferenceSimpX0: correctly returned simplified Expression</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testDifferenceSimpXX: correctly returned simplified Expression</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testDifferenceSimpNum: correctly returned simplified Expression</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testDifferenceSimpNorm: correctly returned simplified Expression</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testProductSimpX1: correctly returned simplified Expression</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testProductSimp1X: correctly returned simplified Expression</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testProductSimpX0: correctly returned simplified Expression</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testProductSimp0X: correctly returned simplified Expression</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testProductSimpNum: correctly returned simplified Expression</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testProductSimpNorm: correctly returned simplified Expression</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testQuotientSimpX1: correctly returned simplified Expression</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testQuotientSimpXX: correctly returned simplified Expression</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testQuotientSimp0X: correctly returned simplified Expression</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testQuotientSimpX0: correctly caught ArithmeticException</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testQuotientSimpNum: correctly returned simplified Expression</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testQuotientSimpNorm: correctly returned simplified Expression</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testIntGetVariables: returns correct object</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testVariGetVariables: returns correct object with correct values</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testOpVariables: returns correct object with correct values</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testOpNoVariables: returns correct object with correct values</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testSumGetVariables: returns correct object with correct values</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testSumGetNoVariables: returns correct object with correct values</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testDifferenceGetVariables: returns correct object with correct values</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testDifferenceGetNoVariables: returns correct object with correct values</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testProductGetVariables: returns correct object with correct values</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testProductGetNoVariables: returns correct object with correct values</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testQuotientGetVariables: returns correct object with correct values</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testQuotientGetNoVariables: returns correct object with correct values</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testIntEvaluateEmpty: returned correct value</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testIntEvaluateFull: returned correct value</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testVariEvaluateEmpty: successfully caught IllegalArgumentException</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testVariEvaluateFull: returned correct value</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testSumEvalEmpty: successfully caught IllegalArgumentException</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testSumEvalFull: returned correct value</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testDifferenceEvalEmpty: successfully caught IllegalArgumentException</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testDifferenceEvalFull: returned correct value</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testProductEvalEmpty: successfully caught IllegalArgumentException</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testProductEvalFull: returned correct value</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testQuotientEvalEmpty: successfully caught IllegalArgumentException</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testQuotientEvalFull: returned correct value</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testIntEqualsNull: correctly returned false</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testIntEqualsNoType: correctly returned false</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testIntEqualsNoValue: correctly returned false</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testIntEqualsValue: correctly returned true</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testVariEqualsNull: correctly returned false</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testVariEqualsNoType: correctly returned false</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testVariEqualsNoValue: correctly returned false</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testVariEqualsValue: correctly returned true</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testSumEqualsNull: correctly returned false</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testSumEqualsNoType: correctly returned false</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testSumEqualsNoValue: correctly returned false</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testSumEqualsValue: correctly returned true</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testDifferenceEqualsNull: correctly returned false</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testDifferenceEqualsNoType: correctly returned false</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testDifferenceEqualsNoValue: correctly returned false</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testDifferenceEqualsValue: correctly returned true</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testProductEqualsNull: correctly returned false</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testProductEqualsNoType: correctly returned false</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testProductEqualsNoValue: correctly returned false</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testProductEqualsValue: correctly returned true</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testQuotientEqualsNull: correctly returned false</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testQuotientEqualsNoType: correctly returned false</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testQuotientEqualsNoValue: correctly returned false</td>
+  </tr>
+  <tr>
+    <td>PASSED</td>
+    <td>testQuotientEqualsValue: correctly returned true</td>
+  </tr>
+</table>
+
+<h2>Failed Tests</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>RESULT</th>
+    <th>MESSAGE</th>
+  </tr>
+  <tr>
+</table>
+
+<h2>Exception Tests</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>RESULT</th>
+    <th>MESSAGE</th>
+  </tr>
+  <tr>
+</table>
+
+</body>
+</html>
